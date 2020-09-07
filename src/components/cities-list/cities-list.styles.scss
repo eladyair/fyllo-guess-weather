@@ -1,0 +1,23 @@
+.cities-container {
+    padding-bottom: 3rem;
+    .cities-title {
+        color: #19a7b1;
+        font-size: 2rem;
+
+        border-bottom: solid 1px #cccccc;
+    }
+
+    .cities {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .selected-city {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        text-transform: uppercase;
+    }
+}
